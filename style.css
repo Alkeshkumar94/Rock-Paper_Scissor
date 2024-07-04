@@ -72,3 +72,42 @@ body{
    font-size: 30px;
    
 }
+
+@media (max-width:425px){
+  .turns{
+    flex-wrap: wrap;
+    margin-left:105px;
+    gap: 20px;
+    margin-top: 35px;
+  }
+  #heading{
+   width:478px;
+  }
+  .scores{
+    margin-left: 78px;
+    gap: 0;
+  }
+  #start-button-cont{
+margin-bottom: 30px;
+  }
+  #start-button{
+    width: 182px;
+    margin-left: 53px;
+  }
+  .turns div{
+    width:145px;
+    height: 145px;
+  }
+  #compscore {
+    text-align: center;
+    padding-left: 143px;
+}
+}
+@media (max-width:320px){
+    #compscore {
+        padding-left: 88px;
+    }
+    #start-button{
+        margin-left:98px;
+    }
+}
